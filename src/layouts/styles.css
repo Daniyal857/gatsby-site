@@ -354,7 +354,7 @@ footer {
 header.masthead .header-content {
   display: block;
   width: 100%;
-  height: 775px;
+  height: 100vh;
   margin: 0px auto;
 }
 .h-100 {
@@ -427,6 +427,7 @@ footer li {
 }
 header.masthead.innrPageHead {
   background: url('../images/about-bg.jpg') no-repeat;
+  background-size: cover;
 }
 .abtImg {
   padding: 0px 30px;
@@ -448,6 +449,7 @@ header.masthead.innrPageHead {
 }
 header.masthead.innrPageHead2 {
   background: url('../images/service-bg.jpg') no-repeat;
+  background-size: cover;
 }
 .bg-primary {
   background-color: #f05f40!important;
